@@ -1,0 +1,111 @@
+body{
+    background-color: black;
+    color: gray;
+}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 200;
+padding: 5rem;
+}
+
+h2{
+    color: rgba(231, 206, 63, 0.541);
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h3, p{
+    padding-left: 1rem;
+    font-family: 'Quicksand', sans-serif;
+	margin-bottom: 30px;
+  
+}
+
+
+#zoom1 {
+    width: 600px;
+    height: auto;
+   
+    transition: transform ease-in-out 0.3s;
+  }
+   
+  #zoom1:hover { transform: scale(1.2); }
+
+  header {
+	background: url('https://wallpapercave.com/wp/sdJzXKh.jpg');
+	text-align: center;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+    background-image: url("https://rubberb.com/blog/wp-content/uploads/2020/07/family-page-submariner-waterproofness_m116610ln-0001_amb_005-scaled.jpg");
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+	
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+	margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+text-align: center;
+}
+
+
+button {
+	border: none;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 50px;
+	color: #333;
+	background: #fff;
+	margin-bottom: 50px;
+	box-shadow: 0 3px 20px 0 #0000003b;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+button:hover{
+	cursor: pointer;
+}
+
+
+
+.product{
+    border: 0 !important;
+    box-shadow: none;
+}
+
+.border{
+    border: 0 !important;
+}
+
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sticky-box{
+    position:fixed;
+    top:20px;
+    background-color: rgb(218, 215, 201);
+    padding: 1rem;
+    border-radius: 15px;
+    opacity: 0.7;
+    
+}
